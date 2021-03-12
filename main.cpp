@@ -7,21 +7,36 @@ using namespace std;
 int main()
 {
 fstream reader;
-string colors[8]: {"#0000FF", "#FFFF00", "#EE82EE", "#FF0000", "#FFA500", "#008000", "#A9A9A9", "#FF1493",};
-int color= 0;
+string colors[6]: {"Blue", "Red", "Green", "Yellow", "Orange", "Purple"};
+int Blue= 1;
+int Red= 2;
+int Green= 3;
+int Yellow= 4;
+int Orange= 5;
+int Purple= 6;
+string fileName;
 
 cout << "Hello and welcome to the pallette generator program.\n";
   
 cout << "Here, you have the power to decide the colors in your very own color pallette!/n";
   
 cout << "Now, let's get started.\n";
-
-cout << "Currently, our program has only a maximum of 10 colors, but we need atleast 2 to make it work. How many would you like in your pallete?"/n; 
+do{
+cout << "Currently, the colors available are Blue, Red, Green, Yellow, Orange, and Purple. These colors are case sensitive. What is the first color you would like in your pallette??"/n; 
 cin >> color;
-if (color < 2 || color > 10); {
-  cout << "Unfortunately, the input you gave doesn't meet our requiremnets for the pallette. Please try again./n";
-}
+}while (colorNum < 1 || colorNum > 6);
   
-    
+if (colorNum < 1 || colorNum > 6); {
+  cout << "Unfortunately, the input you gave doesn't meet our requirements for the pallette. Please try again./n";
+}
+else {
+  cout << "What is the file name?/n";
+  cin >> fileName;
+}
+
+ reader.open(fileName, ios::out);
+ getline(reader,text);
+ reader.close();
+  
   return 0;
 }
