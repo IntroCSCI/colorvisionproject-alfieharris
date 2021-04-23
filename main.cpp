@@ -16,7 +16,6 @@ int main()
 fstream file;
 string colors[6] {"Blue", "Red", "Green", "Yellow", "Orange", "Purple"};
 string fileName;
-string text;
 string response;
 string variable;
 
