@@ -40,6 +40,7 @@ Good job on selecting your first color. Here is a list of additional colors that
 Yellow
 Orange
 Purple
+And finally, here is the amount of primary and secondary colors used in the palette: 6
 ```
 
 ## C++ Guide
