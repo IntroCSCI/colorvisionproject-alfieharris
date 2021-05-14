@@ -10,7 +10,7 @@ Completely changed original coding, now having primary color files as well as li
 
 ### v1.0 Updates
 
-*Coming soon*
+Added class which details the amount of primary and secondary colors the user has in their pallette at the end of the program.
 
 
 ## Developer
@@ -74,4 +74,4 @@ The program uses a void function to push a list out containing secondary colors 
 
 ### Classes
 
-*Coming in version 1.0*
+The class uses a simple Color.cpp and Color.h to declare the variables and call out new functions in the public and private areas of the code. The public calls the function, and adds up the number of primary and secondary colors, which is then outputted in the main code.
