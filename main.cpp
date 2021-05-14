@@ -67,7 +67,11 @@ else {
  cout << "Good job on selecting your first color. Here is a list of additional colors that you can add to your palette: \n";
   std::list<std::string> list = { "Yellow", "Orange", "Purple" };
     print(list);
-
+{
+  Primary rect;
+rect.set_values (3,3);
+cout <<"And finally, here is the amount of primary and secondary colors listed in the pallette: " << rect.amount();
+}
 
   return 0;
 }
