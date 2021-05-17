@@ -2,7 +2,7 @@ Primary Color Pallette Generator
 
 ## Description
 
-Takes a primary color input from user and gives additional colors which can be used in the pallette.
+The function of this project is to take input from the user about what colors they would like to include in their palette by first offering a primary color, and then including the two unused primary colors in the palette, and then adding in the secondary colors which don't conflict with the main color. The code builds a palette of six colors based on a input of one primary color from the user. At the end, the code tells the user what colors are included, as well as how many primary and secondary colors are in the palette.
 
 ### v0.2 Updates
 
