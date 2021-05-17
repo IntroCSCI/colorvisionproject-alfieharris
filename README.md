@@ -63,7 +63,7 @@ The program uses two "do/while" loops, where if the user enters the correct resp
 
 ### File Input and Output
 
-The program has a feature where based on the user's input, it opens a file containing the two other primary colors that would be suitable with the user's initial response. 
+The program has a feature where based on the user's input, it opens a file containing the two other primary colors that would be suitable with the user's initial response. The program also has several files listed under color names, which contains the other primary colors that join in with the user's original input. For example, the file "Red", contains the colors blue and yellow.
 
 ### Arrays/Vectors
 
